@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: blue;
+  padding: 20px 0;
+  /* Turn the element into a flex-container; this tells the browser
+   * to render the element with flexbox rather than the default box
+   * model */
+  display: flex;
+  /* All the items in this container will be centered */
+  justify-content: center;
+}
+
+.menu {
+  border: 1px solid #fff;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #5995da;
+  background-color: #d6e9fe;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
