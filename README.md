@@ -1,2 +1,2 @@
 # internetingIsHard
-Working through the awesome HTML/CSS tutorial from internetingishard.com
+Working through the awesome HTML/CSS tutorial from [Interneting is hard](https://internetingishard.com)
